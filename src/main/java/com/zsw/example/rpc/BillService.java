@@ -1,4 +1,4 @@
-package com.zsw.example;
+package com.zsw.example.rpc;
 
 /**
  * 账单服务类接口
