@@ -1,8 +1,10 @@
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\spring\factories\MyRedisProperty.java
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\spring\factories\MyRedisAutoConfiguration.java
-C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\App.java
+C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\openfeign\dto\OrderDto.java
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\rpc\OrderService.java
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\spring\factories\ConfigurationTest.java
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\rpc\BillService.java
+C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\AppTest.java
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\spring\factories\MyRedisClient.java
+C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\openfeign\client\OrderServiceFeignClient.java
 C:\workSpace_test\rpc\orderapi\src\main\java\com\zsw\example\rpc\RpcRequestDto.java

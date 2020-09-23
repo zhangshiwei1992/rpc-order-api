@@ -5,11 +5,11 @@ import org.springframework.cloud.openfeign.FeignClient;
 import com.zsw.example.rpc.OrderService;
 
 /**
- * orderService FeignClient
+ * FeignClient
  *
  * @author zhangshiwei
  * @since 2020年9月23日 下午7:03:25
  */
-@FeignClient("spring-cloud-order-service")
-public interface OrderServiceFeignClient extends OrderService {
+@FeignClient("message-service")
+public interface MessageServiceFeignClient extends OrderService {
 }
