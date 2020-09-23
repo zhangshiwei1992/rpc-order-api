@@ -6,7 +6,7 @@
 
   <groupId>com.zsw.example</groupId>
   <artifactId>order-api</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
 
   <name>order-api</name>
   <!-- FIXME change it to the project's website -->
@@ -48,7 +48,25 @@
       <version>2.1.7.RELEASE</version>
     </dependency>
 
+    <!-- spring-cloud-openfeign -->
+    <dependency>
+      <groupId>org.springframework.cloud</groupId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
+    </dependency>
+
   </dependencies>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 
 </project>
