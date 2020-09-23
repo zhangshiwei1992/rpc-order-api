@@ -1,5 +1,9 @@
 package com.zsw.example.rpc;
 
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
 import com.zsw.example.openfeign.dto.OrderDto;
 
 /**
@@ -10,9 +14,12 @@ import com.zsw.example.openfeign.dto.OrderDto;
  */
 public interface OrderService {
 
+    @GetMapping("/findOrderList")
     String findOrderList();
 
+    @GetMapping("/findOrderById")
     String findOrderById();
 
-    int insertOrder(OrderDto orderDto);
+    @PostMapping("/insertOrder")
+    int insertOrder(@RequestBody OrderDto orderDto);
 }
