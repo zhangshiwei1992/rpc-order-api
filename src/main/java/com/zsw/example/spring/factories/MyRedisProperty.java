@@ -21,5 +21,4 @@ public class MyRedisProperty {
     private Integer timeOut;
 
     private Boolean ssl;
-
 }

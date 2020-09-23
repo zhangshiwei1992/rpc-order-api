@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  * @author zhangshiwei
  * @since 2020年9月17日 下午5:50:31
  */
-@EnableConfigurationProperties(MyRedisProperty.class)
+@EnableConfigurationProperties(MyRedisProperty.class) // 属性注入,自动装载MyRedisProperty
 @Configuration
 @ConditionalOnProperty(prefix = "zsw", value = "enable") // 满足条件才加载此配置类
 public class MyRedisAutoConfiguration {
