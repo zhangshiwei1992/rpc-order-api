@@ -10,6 +10,6 @@ import com.zsw.example.rpc.OrderService;
  * @author zhangshiwei
  * @since 2020年9月23日 下午7:03:25
  */
-@FeignClient
+@FeignClient("spring-cloud-order-service")
 public interface OrderServiceFeignClient extends OrderService {
 }

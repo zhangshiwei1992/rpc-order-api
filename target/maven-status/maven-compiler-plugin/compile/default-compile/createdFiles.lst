@@ -1,8 +1,10 @@
 com\zsw\example\spring\factories\MyRedisAutoConfiguration.class
-com\zsw\example\spring\factories\MyRedisClient.class
 com\zsw\example\rpc\RpcRequestDto.class
+com\zsw\example\openfeign\dto\OrderDto.class
 com\zsw\example\spring\factories\ConfigurationTest.class
 com\zsw\example\spring\factories\MyRedisProperty.class
-com\zsw\example\rpc\BillService.class
 com\zsw\example\rpc\OrderService.class
+com\zsw\example\spring\factories\MyRedisClient.class
+com\zsw\example\openfeign\client\OrderServiceFeignClient.class
+com\zsw\example\rpc\BillService.class
 com\zsw\example\App.class
