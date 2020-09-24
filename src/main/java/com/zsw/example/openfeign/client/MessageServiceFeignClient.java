@@ -10,6 +10,6 @@ import com.zsw.example.openfeign.service.MessageService;
  * @author zhangshiwei
  * @since 2020年9月23日 下午7:03:25
  */
-@FeignClient("message-service")
+@FeignClient("spring-cloud-order-service")
 public interface MessageServiceFeignClient extends MessageService {
 }
